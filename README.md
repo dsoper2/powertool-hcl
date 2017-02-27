@@ -34,7 +34,7 @@ $Name = ‘c3s1-test’
 
 Get-UcsSupportedDrivers -Name $Name -CCOCred $cred  -FwVersion '3.1(2c)' -OsVendorCode 4 -OsVersionCode 148 -Chassis 3 -SlotId 1
 
-<FwVersion> is the UCSM bundle version to check for compatibility.  The script replaces the version queried from the system with this value.
+-FwVersion is the UCSM bundle version to check for compatibility.  The script replaces the version queried from the system with this value.
 
-Values for <OSVendorCode> can be retrieved with the Get-UcsOsVendor cmdlet, and <OSVersionCode> can be retrieved with the Get-UcsOperatingSystem cmdlet.
+Values for -OSVendorCode can be retrieved with the Get-UcsOsVendor cmdlet, and -OSVersionCode can be retrieved with the Get-UcsOperatingSystem cmdlet.
 
